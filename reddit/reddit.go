@@ -15,12 +15,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/go-querystring/query"
 	"golang.org/x/oauth2"
+
+	"github.com/google/go-querystring/query"
 )
 
 const (
-	libraryName    = "github.com/vartanbeno/go-reddit"
+	libraryName    = "github.com/WViiras/go-reddit"
 	libraryVersion = "2.0.0"
 
 	defaultBaseURL         = "https://oauth.reddit.com"
